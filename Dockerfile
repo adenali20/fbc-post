@@ -1,7 +1,7 @@
 FROM openjdk:17-jdk-alpine
 EXPOSE 8082
 
-ADD target/mvn1.jar fbc-post.jar
+ADD target/fbc-post.jar fbc-post.jar
 ENTRYPOINT ["java","-jar","/fbc-post.jar"]
 
 #FROM maven
