@@ -12,7 +12,7 @@ import java.util.UUID;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/api/fbcpost")
+@RequestMapping("/api/fbc/post")
 @CrossOrigin({"*"})
 public class UsersController {
 

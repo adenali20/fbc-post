@@ -12,7 +12,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 @RestController
-@RequestMapping("/api/fbcpost/post")
+@RequestMapping("/api/fbc/post")
 public class PostsController {
 
 
